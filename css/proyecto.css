@@ -1,0 +1,181 @@
+/*Estilos para Todas las paginas*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: skyblue;
+    padding: 10px;
+    margin: 10px;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+header div{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+}
+
+header div img{
+    width: 50px;
+    height: 70px;
+    margin-right: 50px;
+    margin-left: 55px;
+}
+
+h1{
+    font-size: 25px;
+}
+
+#menu{
+    width: 1000px;
+    padding: 25px;
+    font-weight: bold;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+
+#menu li{
+    font-size: 20px;
+}
+
+#menu a{
+    text-decoration:none;
+}
+
+#footer{
+    padding: 15px;
+    margin-top: 20px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+footer div img{
+    width: 120px;
+    height: 300px;
+}
+
+footer .redesSociales{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+footer .redesSociales img{
+    width: 50px;
+}
+
+footer table{
+    text-align: center;
+}
+
+footer td{
+    padding: 3px;
+    border: 1px solid black;
+}
+
+
+
+
+/*!Estilos para el Index*/
+.carrusel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(0, 140, 255, 0.726);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.imgCarrusel{
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+section{
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 200px;
+}
+
+h2{
+    color: black;
+}
+
+
+
+/*!Estilos para el Yo soy*/
+
+.mainYoSoy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mainYoSoy div img{
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.mainYoSoy section{
+    font-size: 18px;
+    text-align: justify;
+    border-radius: 10px;
+    padding: 10px;
+    width: 600px;
+    border: none;
+}
+
+
+
+/*!Estilos para Mis Trabajos*/
+.mainMisTrabajos{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.mainMisTrabajos div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100;
+    border: 1px solid black;
+    
+}
+
+.cuadro{
+    width: 500px;
+    height: 400px;
+    border: 1px solid gray;
+}
+
+
+/*!Estilos para el Registro*/
+fieldset{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
