@@ -2,13 +2,20 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
-body{
-    background-color: skyblue;
+ul,
+ol{
+  list-style:none;
+}
+
+body{n
+    background-color: rgb(149, 235, 235);
     padding: 10px;
     margin: 10px;
     font-family: sans-serif;
+    
 }
 
 header{
@@ -16,6 +23,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     margin: 25px;
+    align-items: baseline;
 }
 
 header div{
@@ -68,11 +76,11 @@ h1{
 
 footer div img{
     width: 120px;
-    height: 300px;
+    height: 150px;
 }
 
 footer .redesSociales{
-    width: 200px;
+    width: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -90,6 +98,7 @@ footer table{
 footer td{
     padding: 3px;
     border: 1px solid black;
+    border-radius: 15px;
 }
 
 
