@@ -17,6 +17,8 @@ body{
     font-family: sans-serif;
     
 }
+
+@media {(min-width: 300px);
 .gridContainer {
     display: grid;
     grid-template-areas:
@@ -28,6 +30,7 @@ body{
     grid-template-columns: 50% 50%;
     grid-template-rows: 100px 100px auto 1fr 100px;
 }
+ }
 
 header{
     display: flex;
@@ -65,9 +68,10 @@ h1{
     list-style-type: none;
 }
 
-
+@media {(min-width: 300px);
 #menu li{
     font-size: 20px;
+}
 }
 
 #menu a{
@@ -89,7 +93,7 @@ footer div img{
     width: 120px;
     height: 150px;
 }
-
+@media {(min-width: 300px);
 footer .redesSociales{
     width: 50px;
     display: flex;
@@ -97,6 +101,8 @@ footer .redesSociales{
     justify-content: space-around;
     list-style-type: none;
 }
+ }
+
 
 footer .redesSociales img{
     width: 50px;
@@ -112,7 +118,7 @@ footer td{
     border-radius: 15px;
 }
 
-
+@media {(min-width: 300px);
 /*!Estilos para el Index*/
 .carrusel{
     display: flex;
@@ -122,6 +128,7 @@ footer td{
     padding: 10px;
     border-radius: 20px;
 }
+ }
 
 .imgCarrusel{
     width: 250px;
@@ -137,24 +144,28 @@ section{
     padding: 200px;
 }
 
+@media {(min-width: 300px);
 h2{
     color: black;
 }
-
+}
 
 
 /*!Estilos para el Yo soy*/
-
+@media {(min-width: 300px);
 .mainYoSoy{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
+}
 
+@media { (min-width: 300px);
 .mainYoSoy div img{
     width: 500px;
     height: 400px;
     border-radius: 10px;
+}
 }
 
 .mainYoSoy section{
@@ -191,22 +202,24 @@ h2{
 
 
 /*!Estilos para el Registro*/
+@media { (min-width: 300px);
 fieldset{
     border: 2px solid black;
     border-radius: 10px;
     padding: 10px;
 }
+}
 
+@media { (min-width: 300px);
+       
 .grid-container {
     display: grid; 
     grid-template-columns: 300px 100px; /* 2 columnas */
     grid-template-rows: 40px 100px; /* 2 filas */
          
     }
-    
+
+}
     /*aplicado media querys*/
 
-    @media screen {min-width: 300px;
-        max-width: 400px;
-        
-    }
+    
