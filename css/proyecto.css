@@ -152,6 +152,7 @@ h2{
 
 /*!Estilos para el Yo soy*/
 @media {(min-width: 300px);
+
 .mainYoSoy{
     display: flex;
     flex-direction: row;
@@ -159,24 +160,27 @@ h2{
 }
 }
 
-@media { (min-width: 300px);
+@media { (min-width: 1500px);
 .mainYoSoy div img{
-    width: 200px;
-    height: 280px;
+    width: 100px;
+    height: 150px;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
 }
 }
 
 .mainYoSoy section{
     font-size: 18px;
-    text-align: justify;
+    text-align: justify; 
     border-radius: 10px;
     padding: 10px;
-    width: 600px;
-    border: none;
+    width: 300px;
+    border-radius: 10px;
 }
 
-@media { (min-width: 300px);
+@media {(min-width: 300px);
 /*!Estilos para Mis Trabajos*/
 .mainMisTrabajos{
     display: flex;
