@@ -18,21 +18,23 @@ body{
     
 }
 
-@media {(min-width: 300px);
-.gridContainer {
-    display: grid;
-    grid-template-areas:
-        "header header"
-        "navIzq navDer"
-        "parrafo parrafo"
-        "img img"
-        "footer footer";
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 100px 100px auto 1fr 100px;
+@media (min-width:480px) {
+    . {
+        display: grid;
+        grid-template-areas:
+            "header header"
+            "navIzq navDer"
+            "parrafo parrafo"
+            "img img"
+            "footer footer";
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100px 100px auto 1fr 100px;
+    }
 }
- }
+ 
 
-header{
+
+.encabezado{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -40,25 +42,25 @@ header{
     align-items: baseline;
 }
 
-header div{
+.encabezado div{
     width: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly; 
 }
 
-header div img{
+.encabezado div img{
     width: 50px;
     height: 70px;
     margin-right: 50px;
     margin-left: 55px;
 }
 
-h1{
+.home{
     font-size: 25px;
 }
 
-#menu{
+.menu{
     width: 1000px;
     padding: 25px;
     font-weight: bold;
@@ -68,7 +70,7 @@ h1{
     list-style-type: none;
 }
 
-@media {(min-width: 300px);
+@media (min-width: 300px) {
 #menu li{
     font-size: 20px;
 }
@@ -93,7 +95,7 @@ footer div img{
     width: 120px;
     height: 150px;
 }
-@media {(min-width: 300px);
+@media (min-width: 300px) {
 footer .redesSociales{
     width: 50px;
     display: flex;
@@ -118,7 +120,7 @@ footer td{
     border-radius: 15px;
 }
 
-@media {(min-width: 300px);
+@media (min-width: 300px) {
 /*!Estilos para el Index*/
 .carrusel{
     display: flex;
@@ -131,11 +133,10 @@ footer td{
  }
 
 .imgCarrusel{
-    width: 250px;
-    height: 200px;
+    height: 200vh;
     border-radius: 20px;
 }
-@media {(min-width: 300px);
+@media (min-width: 300px) {
 section{
     font-size: 20px;
     text-align: center;
@@ -145,42 +146,40 @@ section{
 }
  }
 
-h2{
+p{
     color: black;
 }
 
 
 /*!Estilos para el Yo soy*/
-@media {(min-width: 300px);
-
-.mainYoSoy{
+/*@media (min-width: 1500px) {*/
+.mainYoSoyContainer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-}
 
-@media { (min-width: 1500px);
-.mainYoSoy div img{
-    width: 100px;
-    height: 150px;
+
+@media (min-width: 300px) { 
+.mainYoSoyimg{
+    width: 200px;
+    height: 350px;
     border-radius: 10px;
-    display: flex;
     justify-content: space-around;
     padding-bottom: 20px;
 }
 }
 
-.mainYoSoy section{
+.mainYoSoy{
     font-size: 18px;
     text-align: justify; 
     border-radius: 10px;
     padding: 10px;
-    width: 300px;
+    width: 500px;
     border-radius: 10px;
 }
 
-@media {(min-width: 300px);
+@media (min-width: 300px) {
 /*!Estilos para Mis Trabajos*/
 .mainMisTrabajos{
     display: flex;
@@ -188,6 +187,7 @@ h2{
     flex-direction: row;
 }
 }
+
 .mainMisTrabajos div{
     display: flex;
     flex-direction: row;
@@ -205,7 +205,7 @@ h2{
 
 
 /*!Estilos para el Registro*/
-@media { (min-width: 300px);
+@media (min-width: 300px){ 
 fieldset{
     border: 2px solid black;
     border-radius: 10px;
@@ -213,7 +213,7 @@ fieldset{
 }
 }
 
-@media { (min-width: 300px);
+@media (min-width: 300px) {
        
 .grid-container {
     display: grid; 
@@ -223,6 +223,5 @@ fieldset{
     }
 
 }
-    /*aplicado media querys*/
 
     

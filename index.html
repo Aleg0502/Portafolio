@@ -8,17 +8,45 @@
     <link rel="stylesheet" href="/css/proyecto.css">
     <title>Document</title>
 </head>
-<body>
-    <header id="encabezado">
-
+<body><!----
+    <header class="encabezado">
+     
         <div>
             <img src="/img/logo.svg" alt="logo">
-            <h1>Home</h1>
-        </div>
+            <h1 class="home">Home</h1>
+        </div>-->
+
 <!-- Aplicando grid al menu, falta agregarle bs para que sea menu hamburguesa -->
-        <nav>
-            <div class="grid-container">
-            <ul id="menu">
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!---
+<nav>
+        
+    
+
+            <ul class="menu">
                 <li><a href="./index.html">Inicio</a></li>
                 <li><a href="./html/soy.html">Soy</a></li>
                 <li><a href="./html/servicios.html">Servicio</a></li>
@@ -26,10 +54,13 @@
                 <li><a href="./html/contacto.html">Contacto</a></li>
                 <li><a href="#footer">Ubicación</a></li>
             </ul>
-        </div>
+    
 
         </nav>
-    </header>
+        
+    </header>-->
+
+
     <!-- Aplicando bs para carrusel -->
     <main id="mainIndex">
         <div id="carouselExampleFade" class="carousel slide carousel-fade">
@@ -54,10 +85,11 @@
             </button>
           </div>
 
-        <section class="grid-container">
-            <div class="grid-item">
-                <article>
-                <h2>
+        <section>
+
+        
+            <div>
+                <p>
                     
                     El diseño de experiencia de usuario (UX) es el proceso de crear productos digitales que sean intuitivos, eficientes y atractivos para los usuarios. Ofrece un enfoque centrado en el usuario, asegurando que cada interacción con el producto sea significativa y satisfactoria.
                     
@@ -83,8 +115,7 @@
                     
                     El diseño UX no es un lujo, es una inversión esencial para cualquier producto digital que busque sobresalir en un mercado competitivo y proporcionar un valor duradero a sus usuarios.
                     
-                    </h2>
-            </article>
+                </p>
             </div>
           
             </section>
