@@ -207,6 +207,6 @@ fieldset{
     /*aplicado media querys*/
 
     @media screen {min-width: 300px;
-        max-width: 700px;
+        max-width: 500px;
         
     }
