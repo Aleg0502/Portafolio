@@ -10,12 +10,23 @@ ol{
   list-style:none;
 }
 
-body{n
+body{
     background-color: rgb(149, 235, 235);
     padding: 10px;
     margin: 10px;
     font-family: sans-serif;
     
+}
+.gridContainer {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "navIzq navDer"
+        "parrafo parrafo"
+        "img img"
+        "footer footer";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px 100px auto 1fr 100px;
 }
 
 header{
@@ -194,3 +205,9 @@ fieldset{
          
     }
     
+    /*aplicado media querys*/
+
+    @media screen {min-width: 300px;
+        max-width: 700px;
+        
+    }
