@@ -135,7 +135,7 @@ footer td{
     height: 200px;
     border-radius: 20px;
 }
-
+@media {(min-width: 300px);
 section{
     font-size: 20px;
     text-align: center;
@@ -143,11 +143,10 @@ section{
     border-radius: 10px;
     padding: 200px;
 }
+ }
 
-@media {(min-width: 300px);
 h2{
     color: black;
-}
 }
 
 
@@ -162,8 +161,8 @@ h2{
 
 @media { (min-width: 300px);
 .mainYoSoy div img{
-    width: 500px;
-    height: 400px;
+    width: 200px;
+    height: 280px;
     border-radius: 10px;
 }
 }
@@ -177,14 +176,14 @@ h2{
     border: none;
 }
 
-
+@media { (min-width: 300px);
 /*!Estilos para Mis Trabajos*/
 .mainMisTrabajos{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
 }
-
+}
 .mainMisTrabajos div{
     display: flex;
     flex-direction: row;
